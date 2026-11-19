@@ -1,0 +1,176 @@
+---
+name: exfact
+title: 'Factorial Design'
+jrs: '1.1'
+
+items:
+    - name: guide
+      title: Data and setup guide
+      type: Html
+      visible: (showGuide)
+
+    - name: helpText
+      title: Method notes
+      type: Html
+      visible: (showHelp)
+
+    - name: notes
+      title: Notes
+      type: Html
+      visible: true
+
+    - name: cells
+      title: 'Cell means'
+      type: Table
+      rows: 0
+      clearWith: [outcome, factorA, controlA, factorB, controlB, covs, block, cluster, se, level]
+      columns:
+        - name: A
+          title: 'Factor A'
+          type: text
+        - name: B
+          title: 'Factor B'
+          type: text
+        - name: n
+          title: 'N'
+          type: integer
+        - name: mean
+          title: 'Mean'
+          type: number
+        - name: sd
+          title: 'Std. deviation'
+          type: number
+
+    - name: main
+      title: 'Main effects (averaged over the other factor, equal weights)'
+      type: Table
+      rows: 0
+      clearWith: [outcome, factorA, controlA, factorB, controlB, covs, block, cluster, se, level]
+      columns:
+        - name: lab
+          title: 'Effect'
+          type: text
+        - name: estimate
+          title: 'Estimate'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: t
+          title: 't'
+          type: number
+        - name: df
+          title: 'df'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: simple
+      title: 'Simple effects (within each level of the other factor)'
+      type: Table
+      rows: 0
+      clearWith: [outcome, factorA, controlA, factorB, controlB, covs, block, cluster, se, level]
+      columns:
+        - name: lab
+          title: 'Effect'
+          type: text
+        - name: estimate
+          title: 'Estimate'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: t
+          title: 't'
+          type: number
+        - name: df
+          title: 'df'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: inter
+      title: 'Interaction: does the effect of one factor depend on the other?'
+      type: Table
+      rows: 0
+      clearWith: [outcome, factorA, controlA, factorB, controlB, covs, block, cluster, se, level]
+      columns:
+        - name: lab
+          title: 'Effect'
+          type: text
+        - name: estimate
+          title: 'Estimate'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: t
+          title: 't'
+          type: number
+        - name: df
+          title: 'df'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: ign
+      title: 'Effect of each factor ignoring the other'
+      type: Table
+      rows: 0
+      clearWith: [outcome, factorA, controlA, factorB, controlB, covs, block, cluster, se, level]
+      columns:
+        - name: lab
+          title: 'Effect'
+          type: text
+        - name: estimate
+          title: 'Estimate'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: t
+          title: 't'
+          type: number
+        - name: df
+          title: 'df'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+refs:
+    - estimatr
+    - muralidharan2019
+
+...

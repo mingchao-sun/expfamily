@@ -1,0 +1,135 @@
+---
+name: exsub
+title: 'Subgroup Effects'
+jrs: '1.1'
+
+items:
+    - name: guide
+      title: Data and setup guide
+      type: Html
+      visible: (showGuide)
+
+    - name: helpText
+      title: Method notes
+      type: Html
+      visible: (showHelp)
+
+    - name: notes
+      title: Notes
+      type: Html
+      visible: true
+
+    - name: overall
+      title: 'Effect in the whole sample'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, armTreat, subgroups, covs, block, cluster, method, se, adjust, level]
+      columns:
+        - name: what
+          title: ''
+          type: text
+        - name: n
+          title: 'N'
+          type: integer
+        - name: estimate
+          title: 'Effect'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: eff
+      title: 'Treatment effect by subgroup'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, armTreat, subgroups, covs, block, cluster, method, se, adjust, level]
+      columns:
+        - name: variable
+          title: 'Variable'
+          type: text
+        - name: level
+          title: 'Subgroup'
+          type: text
+        - name: n
+          title: 'N'
+          type: integer
+        - name: n1
+          title: 'Treated'
+          type: integer
+        - name: n0
+          title: 'Control'
+          type: integer
+        - name: estimate
+          title: 'Effect'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: padj
+          title: 'Adjusted p'
+          type: number
+          format: zto,pvalue
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: inter
+      title: 'Does the effect differ between the subgroups of a variable? (treatment x subgroup)'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, armTreat, subgroups, covs, block, cluster, method, se, adjust, level]
+      columns:
+        - name: variable
+          title: 'Variable'
+          type: text
+        - name: F
+          title: 'F'
+          type: number
+        - name: df1
+          title: 'df1'
+          type: integer
+        - name: df2
+          title: 'df2'
+          type: number
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+        - name: padj
+          title: 'Adjusted p'
+          type: number
+          format: zto,pvalue
+
+    - name: subPlot
+      title: 'Treatment effect by subgroup'
+      type: Image
+      width: 560
+      height: 420
+      renderFun: .plotSub
+      visible: (plot)
+      clearWith: [outcome, treat, control, armTreat, subgroups, covs, block, cluster, method, se, adjust, level]
+
+refs:
+    - estimatr
+    - wager2018
+    - holm1979
+    - benjamini1995
+
+...

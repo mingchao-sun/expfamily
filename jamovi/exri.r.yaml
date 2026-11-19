@@ -1,0 +1,73 @@
+---
+name: exri
+title: 'Randomization Inference'
+jrs: '1.1'
+
+items:
+    - name: guide
+      title: Data and setup guide
+      type: Html
+      visible: (showGuide)
+
+    - name: helpText
+      title: Method notes
+      type: Html
+      visible: (showHelp)
+
+    - name: notes
+      title: Notes
+      type: Html
+      visible: true
+
+    - name: res
+      title: 'Randomization test'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, block, cluster, stat, tau, sims, exactMax, seed, ci, level]
+      columns:
+        - name: arm
+          title: 'Comparison'
+          type: text
+        - name: stat
+          title: 'Statistic'
+          type: number
+        - name: p2
+          title: 'p (two-sided)'
+          type: number
+          format: zto,pvalue
+        - name: pr
+          title: 'p (treated larger)'
+          type: number
+          format: zto,pvalue
+        - name: pl
+          title: 'p (treated smaller)'
+          type: number
+          format: zto,pvalue
+        - name: nrand
+          title: 'Randomizations'
+          type: integer
+        - name: how
+          title: 'Method'
+          type: text
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: riPlot
+      title: 'Distribution of the statistic under the sharp null'
+      type: Image
+      width: 560
+      height: 360
+      renderFun: .plotRi
+      visible: (plot)
+      clearWith: [outcome, treat, control, block, cluster, stat, tau, sims, exactMax, seed, ci, level]
+
+refs:
+    - fisher1935
+    - rosenbaum2002
+    - ri2
+
+...

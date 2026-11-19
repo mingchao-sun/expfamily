@@ -1,0 +1,102 @@
+---
+name: exbounds
+title: 'Worst-Case Bounds'
+jrs: '1.1'
+
+items:
+    - name: guide
+      title: Data and setup guide
+      type: Html
+      visible: (showGuide)
+
+    - name: helpText
+      title: Method notes
+      type: Html
+      visible: (showHelp)
+
+    - name: notes
+      title: Notes
+      type: Html
+      visible: true
+
+    - name: ref
+      title: 'What the data show'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, armTreat, mode, ymin, ymax, level, nboot, seed]
+      columns:
+        - name: what
+          title: ''
+          type: text
+        - name: value
+          title: ''
+          type: number
+
+    - name: res
+      title: 'Bounds on the average treatment effect'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, armTreat, mode, ymin, ymax, level, nboot, seed]
+      columns:
+        - name: what
+          title: 'Assumptions'
+          type: text
+        - name: lower
+          title: 'Lower bound'
+          type: number
+        - name: upper
+          title: 'Upper bound'
+          type: number
+        - name: width
+          title: 'Width'
+          type: number
+        - name: sel
+          title: 'Std. error (lower)'
+          type: number
+        - name: seu
+          title: 'Std. error (upper)'
+          type: number
+        - name: lo
+          title: 'CI lower'
+          type: number
+        - name: hi
+          title: 'CI upper'
+          type: number
+
+    - name: means
+      title: 'Bounds on the average potential outcomes'
+      type: Table
+      rows: 0
+      clearWith: [outcome, treat, control, armTreat, mode, ymin, ymax, level, nboot, seed]
+      columns:
+        - name: what
+          title: 'Assumptions'
+          type: text
+        - name: e1lo
+          title: 'Treated: lower'
+          type: number
+        - name: e1hi
+          title: 'Treated: upper'
+          type: number
+        - name: e0lo
+          title: 'Control: lower'
+          type: number
+        - name: e0hi
+          title: 'Control: upper'
+          type: number
+
+    - name: bndPlot
+      title: 'Bounds on the average treatment effect'
+      type: Image
+      width: 560
+      height: 340
+      renderFun: .plotBounds
+      visible: (plot)
+      clearWith: [outcome, treat, control, armTreat, mode, ymin, ymax, level, nboot, seed]
+
+refs:
+    - manski1990
+    - manskipepper2000
+    - imbensmanski2004
+
+...

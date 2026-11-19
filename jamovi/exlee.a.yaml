@@ -1,0 +1,92 @@
+---
+name: exlee
+title: 'Bounds under Attrition'
+jas: '1.2'
+version: '1.0.0'
+menuGroup: Experiments
+menuTitle: 'Bounds under Attrition'
+menuSubtitle: 'Lee (2009) trimming bounds when outcomes are missing'
+
+options:
+    - name: data
+      type: Data
+
+    - name: outcome
+      title: 'Outcome (missing = not observed)'
+      type: Variable
+      permitted:
+          - numeric
+
+    - name: treat
+      title: 'Treatment (arms)'
+      type: Variable
+      suggested:
+          - nominal
+      permitted:
+          - numeric
+          - factor
+          - id
+
+    - name: control
+      title: 'Control group value (blank = the first)'
+      type: String
+      default: ''
+
+    - name: armTreat
+      title: 'Treatment group value (blank = the second)'
+      type: String
+      default: ''
+
+    - name: tight
+      title: 'Covariates to tighten the bounds (categorical)'
+      type: Variables
+      suggested:
+          - nominal
+      permitted:
+          - factor
+          - id
+
+    - name: direction
+      title: 'Effect of the treatment on response'
+      type: List
+      options:
+          - name: auto
+            title: 'Decided by the response rates'
+          - name: up
+            title: 'Treatment raises the response rate'
+          - name: down
+            title: 'Treatment lowers the response rate'
+      default: auto
+
+    - name: level
+      title: 'Confidence level (%)'
+      type: Number
+      default: 95
+      min: 50
+      max: 99.9
+
+    - name: nboot
+      title: 'Bootstrap samples'
+      type: Integer
+      default: 1000
+      min: 100
+      max: 50000
+
+    - name: seed
+      title: 'Random seed'
+      type: Integer
+      default: 1234
+      min: 1
+      max: 999999
+
+    - name: showHelp
+      title: 'Method notes'
+      type: Bool
+      default: false
+
+    - name: showGuide
+      title: 'Data and setup guide'
+      type: Bool
+      default: false
+
+...

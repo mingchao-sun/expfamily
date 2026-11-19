@@ -1,0 +1,18 @@
+Package: expfamily
+Type: Package
+Title: Experiments Family for jamovi
+Version: 1.0.0
+Author: Mingchao Sun
+Maintainer: Mingchao Sun <mingchao.sun@hotmail.com>
+URL: https://github.com/mingchao-sun/expfamily
+BugReports: https://github.com/mingchao-sun/expfamily/issues
+Description: Analysis of randomized experiments for jamovi: treatment effects with
+    regression adjustment (Lin, 2013) and heteroskedasticity- and cluster-robust inference,
+    randomization inference, adjusted p-values for several outcomes (Holm, Westfall-Young,
+    Romano-Wolf), power and sample size, and balance and attrition checks.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    jmvcore (>= 2.3.4),
+    R6,
+    ggplot2

@@ -1,0 +1,129 @@
+---
+title: Experiments Family
+name: expfamily
+version: 1.0.0
+jms: '1.0'
+authors:
+  - Mingchao Sun
+maintainer: Mingchao Sun <mingchao.sun@hotmail.com>
+date: '2026-11-20'
+type: R
+description: >-
+  Analysis of randomized experiments: treatment effects with regression
+  adjustment (Lin) and cluster-robust inference, randomization inference,
+  adjusted p-values for several outcomes (Holm, Westfall-Young, Romano-Wolf),
+  power and sample size, balance and attrition checks, and Lee bounds for the
+  effect when outcomes are missing.
+datasets:
+  - name: Simulated randomized trial
+    path: sim_trial.csv
+    description: >-
+      Simulated, 600 people randomized within 6 blocks to control, T1 or T2: id,
+      block, arm, baseline covariates age, female, baseline and income, outcomes
+      y1 to y4 (y1 effects 0.30 and 0.50 standard deviations) and endline (y1
+      missing for 71% of T2, 92% of control and 86% of T1: differential
+      attrition). Use for Treatment Effects, Randomization Inference, Multiple
+      Outcomes, Balance and Attrition, and Bounds under Attrition.
+  - name: Simulated cluster randomized trial
+    path: sim_cluster_trial.csv
+    description: >-
+      Simulated, 40 schools of 25 students assigned to control or treated as
+      whole schools: student, school, group, baseline, y. Intracluster
+      correlation 0.11. Use for Treatment Effects (cluster-robust errors) and
+      Power and Sample Size.
+  - name: Simulated small experiment
+    path: sim_small_trial.csv
+    description: >-
+      12 units, 6 treated and 6 control: id, group, y. Small enough to enumerate
+      all 924 randomizations. Use for Randomization Inference.
+  - name: Simulated subgroup trial
+    path: sim_subgroup_trial.csv
+    description: >-
+      Simulated, 800 people randomized to control or treated: id, arm, gender,
+      agegroup, region, baseline and the outcome y. The effect is 0.15 for men
+      and 0.75 for women and does not depend on age group or region. Use for
+      Subgroup Effects (the subgroup variables are text and need no change of
+      type).
+  - name: Simulated factorial trial
+    path: sim_factorial_trial.csv
+    description: >-
+      Simulated, 900 people randomized to a message (none, info, reminder)
+      crossed with a cash incentive (no, yes): id, message, incentive, age,
+      baseline and the outcome savings. Effects: info 0.4, reminder 0.6,
+      incentive 0.5, and 0.7 more for reminder with incentive. Use for Factorial
+      Design.
+  - name: Simulated selection into a programme
+    path: sim_selection_program.csv
+    description: >-
+      Simulated, 1,500 people: id, program (yes or no, chosen by the people) and
+      employed (0/1). Monotone response and monotone selection hold by
+      construction; the true average effect is 0.233. Use for Worst-Case Bounds
+      with the situation "Treatment not random".
+analyses:
+  - name: exeffect
+    title: Treatment Effects
+    menuGroup: Experiments
+    menuTitle: Treatment Effects
+    menuSubtitle: Difference in means, covariate adjustment, blocks and clusters
+    ns: expfamily
+    category: analyses
+  - name: exri
+    title: Randomization Inference
+    menuGroup: Experiments
+    menuTitle: Randomization Inference
+    menuSubtitle: Exact and simulated p-values under the sharp null
+    ns: expfamily
+    category: analyses
+  - name: exmht
+    title: Multiple Outcomes
+    menuGroup: Experiments
+    menuTitle: Multiple Outcomes
+    menuSubtitle: Adjusted p-values for several outcomes
+    ns: expfamily
+    category: analyses
+  - name: expower
+    title: Power and Sample Size
+    menuGroup: Experiments
+    menuTitle: Power and Sample Size
+    menuSubtitle: Power, minimum detectable effect and sample size
+    ns: expfamily
+    category: analyses
+  - name: exbalance
+    title: Balance and Attrition
+    menuGroup: Experiments
+    menuTitle: Balance and Attrition
+    menuSubtitle: Baseline balance, joint test and attrition
+    ns: expfamily
+    category: analyses
+  - title: Bounds under Attrition
+    name: exlee
+    ns: expfamily
+    category: analyses
+    menuGroup: Experiments
+    menuTitle: Bounds under Attrition
+    menuSubtitle: Lee (2009) trimming bounds when outcomes are missing
+  - title: Factorial Design
+    name: exfact
+    ns: expfamily
+    category: analyses
+    menuGroup: Experiments
+    menuTitle: Factorial Design
+    menuSubtitle: 'Two crossed treatments: main effects, simple effects, interaction'
+  - title: Subgroup Effects
+    name: exsub
+    ns: expfamily
+    category: analyses
+    menuGroup: Experiments
+    menuTitle: Subgroup Effects
+    menuSubtitle: Treatment effects by subgroup, interaction tests, adjusted p-values
+  - title: Worst-Case Bounds
+    name: exbounds
+    ns: expfamily
+    category: analyses
+    menuGroup: Experiments
+    menuTitle: Worst-Case Bounds
+    menuSubtitle: Manski bounds on the average effect without or with weak assumptions
+usesNative: true
+minApp: 1.0.8
+
+...

@@ -1,0 +1,131 @@
+---
+name: exbalance
+title: 'Balance and Attrition'
+jrs: '1.1'
+
+items:
+    - name: guide
+      title: Data and setup guide
+      type: Html
+      visible: (showGuide)
+
+    - name: helpText
+      title: Method notes
+      type: Html
+      visible: (showHelp)
+
+    - name: notes
+      title: Notes
+      type: Html
+      visible: true
+
+    - name: bal
+      title: 'Baseline covariates by group'
+      type: Table
+      rows: 0
+      clearWith: [treat, control, covs, block, outcome, nperm, seed, flag]
+      columns:
+        - name: covariate
+          title: 'Covariate'
+          type: text
+        - name: arm
+          title: 'Treatment'
+          type: text
+        - name: m0
+          title: 'Control mean'
+          type: number
+        - name: m1
+          title: 'Treatment mean'
+          type: number
+        - name: diff
+          title: 'Difference'
+          type: number
+        - name: std
+          title: 'Standardised difference'
+          type: number
+        - name: p
+          title: 'p (Welch t)'
+          type: number
+          format: zto,pvalue
+
+    - name: joint
+      title: 'Joint test of balance'
+      type: Table
+      rows: 0
+      clearWith: [treat, control, covs, block, outcome, nperm, seed, flag]
+      columns:
+        - name: arm
+          title: 'Treatment'
+          type: text
+        - name: F
+          title: 'F'
+          type: number
+        - name: df1
+          title: 'df1'
+          type: integer
+        - name: df2
+          title: 'df2'
+          type: integer
+        - name: p
+          title: 'p (F test)'
+          type: number
+          format: zto,pvalue
+        - name: pri
+          title: 'p (randomization)'
+          type: number
+          format: zto,pvalue
+        - name: n
+          title: 'N'
+          type: integer
+
+    - name: att
+      title: 'Response by group (outcome observed)'
+      type: Table
+      rows: 0
+      clearWith: [treat, control, covs, block, outcome, nperm, seed, flag]
+      columns:
+        - name: arm
+          title: 'Group'
+          type: text
+        - name: n
+          title: 'N'
+          type: integer
+        - name: obs
+          title: 'Outcome observed'
+          type: integer
+        - name: rate
+          title: 'Response rate'
+          type: number
+        - name: diff
+          title: 'Difference from control'
+          type: number
+        - name: p
+          title: 'p (Welch t)'
+          type: number
+          format: zto,pvalue
+
+    - name: attj
+      title: 'Do covariates predict response differently across groups'
+      type: Table
+      rows: 0
+      clearWith: [treat, control, covs, block, outcome, nperm, seed, flag]
+      columns:
+        - name: F
+          title: 'F'
+          type: number
+        - name: df1
+          title: 'df1'
+          type: integer
+        - name: df2
+          title: 'df2'
+          type: integer
+        - name: p
+          title: 'p'
+          type: number
+          format: zto,pvalue
+
+refs:
+    - bruhn2009
+    - hansenbowers2008
+
+...

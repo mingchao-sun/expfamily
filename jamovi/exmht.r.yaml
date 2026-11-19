@@ -1,0 +1,94 @@
+---
+name: exmht
+title: 'Multiple Outcomes'
+jrs: '1.1'
+
+items:
+    - name: guide
+      title: Data and setup guide
+      type: Html
+      visible: (showGuide)
+
+    - name: helpText
+      title: Method notes
+      type: Html
+      visible: (showHelp)
+
+    - name: notes
+      title: Notes
+      type: Html
+      visible: true
+
+    - name: res
+      title: 'Adjusted p-values'
+      type: Table
+      rows: 0
+      clearWith: [outcomes, treat, control, armTreat, covs, block, bonf, sidak, holm, hochberg, bh, by, wymin, wymax, rw, nperm, nboot, seed, alpha]
+      columns:
+        - name: outcome
+          title: 'Outcome'
+          type: text
+        - name: estimate
+          title: 'Effect'
+          type: number
+        - name: se
+          title: 'Std. error'
+          type: number
+        - name: p
+          title: 'Unadjusted p'
+          type: number
+          format: zto,pvalue
+        - name: a_bonf
+          title: 'Bonferroni'
+          type: number
+          format: zto,pvalue
+          visible: (bonf)
+        - name: a_sidak
+          title: 'Sidak'
+          type: number
+          format: zto,pvalue
+          visible: (sidak)
+        - name: a_holm
+          title: 'Holm'
+          type: number
+          format: zto,pvalue
+          visible: (holm)
+        - name: a_hochberg
+          title: 'Hochberg'
+          type: number
+          format: zto,pvalue
+          visible: (hochberg)
+        - name: a_bh
+          title: 'Benjamini-Hochberg'
+          type: number
+          format: zto,pvalue
+          visible: (bh)
+        - name: a_by
+          title: 'Benjamini-Yekutieli'
+          type: number
+          format: zto,pvalue
+          visible: (by)
+        - name: a_wymin
+          title: 'Westfall-Young (min-p)'
+          type: number
+          format: zto,pvalue
+          visible: (wymin)
+        - name: a_wymax
+          title: 'Westfall-Young (max-t)'
+          type: number
+          format: zto,pvalue
+          visible: (wymax)
+        - name: a_rw
+          title: 'Romano-Wolf'
+          type: number
+          format: zto,pvalue
+          visible: (rw)
+
+refs:
+    - holm1979
+    - benjamini1995
+    - westfallyoung1993
+    - romanowolf2005
+    - clarke2020
+
+...

@@ -1,0 +1,801 @@
+"id","arm","gender","agegroup","region","baseline","y"
+1,"treated","man","under 40","east",0.694,1.26
+2,"treated","woman","40 and over","east",0.727,2.578
+3,"control","woman","under 40","north",0.955,-0.476
+4,"treated","woman","40 and over","north",-1.399,0.273
+5,"control","man","under 40","north",0.872,-1.276
+6,"control","man","40 and over","east",1.338,0.807
+7,"control","woman","40 and over","north",0.237,-0.516
+8,"treated","man","under 40","east",0.209,1.588
+9,"treated","woman","40 and over","north",-1.41,1.591
+10,"treated","woman","under 40","north",-0.623,0.29
+11,"treated","man","40 and over","south",1.836,0.923
+12,"control","woman","under 40","south",0.261,-0.003
+13,"control","man","under 40","east",0.681,0.079
+14,"control","man","40 and over","south",0.514,-0.836
+15,"treated","man","under 40","south",-0.38,-2.773
+16,"treated","man","under 40","north",0.973,0.137
+17,"control","woman","under 40","north",1.034,2.058
+18,"control","man","40 and over","east",-0.923,-0.581
+19,"treated","woman","under 40","north",0.569,0.559
+20,"treated","man","40 and over","north",-1.079,-0.572
+21,"treated","woman","40 and over","east",-0.642,1.371
+22,"control","man","40 and over","south",0.056,-0.645
+23,"treated","man","40 and over","south",-0.878,-0.235
+24,"treated","woman","under 40","south",-0.17,0.249
+25,"treated","woman","40 and over","south",1.669,1.339
+26,"treated","woman","under 40","south",-0.65,0.022
+27,"treated","woman","40 and over","south",-1.281,-0.898
+28,"treated","man","under 40","east",-0.099,0.966
+29,"treated","woman","under 40","east",-1.249,-0.038
+30,"control","woman","under 40","south",-0.685,-1.257
+31,"treated","woman","under 40","north",-1.642,2.551
+32,"treated","woman","under 40","east",1.224,0.816
+33,"treated","man","40 and over","east",-0.041,0.509
+34,"control","man","40 and over","north",1.734,1.534
+35,"control","man","40 and over","north",-1.514,0.177
+36,"treated","woman","40 and over","east",0.462,1.939
+37,"control","man","under 40","east",-1.417,-0.873
+38,"treated","woman","under 40","north",-0.486,1.731
+39,"control","woman","40 and over","east",1.218,-0.585
+40,"control","woman","under 40","south",0.008,0.259
+41,"treated","woman","under 40","south",-1.501,1.643
+42,"control","man","40 and over","north",0.385,0.39
+43,"control","man","under 40","north",-1.838,-1.635
+44,"control","woman","under 40","north",-0.045,0.426
+45,"treated","man","40 and over","south",-1.956,-1.199
+46,"treated","man","under 40","north",0.751,1.069
+47,"treated","man","40 and over","north",-0.927,-0.178
+48,"treated","woman","40 and over","south",-0.376,0.457
+49,"control","woman","40 and over","north",0.541,-0.27
+50,"control","woman","under 40","north",0.204,-0.153
+51,"control","woman","40 and over","east",1.14,2.402
+52,"control","man","40 and over","north",2.226,0.692
+53,"treated","man","under 40","north",0.403,0.202
+54,"control","woman","under 40","north",-0.843,-0.638
+55,"treated","man","40 and over","north",-0.558,-0.445
+56,"treated","man","40 and over","east",-0.558,-0.683
+57,"treated","man","40 and over","north",0.161,0.03
+58,"treated","man","under 40","north",0.846,0.177
+59,"control","woman","under 40","east",1.429,-1.093
+60,"treated","woman","under 40","east",0.836,0.936
+61,"treated","woman","40 and over","east",1.937,1.198
+62,"treated","man","40 and over","south",1.47,0.496
+63,"control","man","40 and over","south",1.048,1.538
+64,"control","woman","under 40","north",0.168,-1.61
+65,"treated","woman","under 40","south",-1.98,1.006
+66,"control","man","under 40","north",-0.276,0.539
+67,"control","woman","under 40","north",1.892,1.194
+68,"control","woman","under 40","south",1.936,2.537
+69,"control","man","40 and over","east",0.011,-0.872
+70,"control","man","under 40","east",-1.35,-0.474
+71,"control","man","40 and over","south",-1.287,-2.152
+72,"control","woman","40 and over","east",1.546,0.907
+73,"treated","man","40 and over","east",1.083,0.575
+74,"control","man","40 and over","south",-0.066,0.115
+75,"control","woman","40 and over","south",0.004,0.407
+76,"treated","man","40 and over","north",-1.202,-0.947
+77,"treated","woman","40 and over","north",0.864,0.125
+78,"control","man","under 40","south",0.483,-0.405
+79,"control","woman","40 and over","south",0.121,0.269
+80,"control","woman","under 40","north",0.397,-0.755
+81,"treated","man","40 and over","south",0.213,-0.18
+82,"treated","man","under 40","east",-1.394,-1.854
+83,"control","man","40 and over","south",-0.408,-0.361
+84,"treated","woman","under 40","north",0.324,0.961
+85,"control","man","40 and over","north",0.883,-0.644
+86,"control","man","under 40","south",0.422,1.222
+87,"control","woman","40 and over","east",-0.265,0.446
+88,"treated","man","40 and over","east",1.035,1.172
+89,"control","man","under 40","south",-0.212,0.127
+90,"control","woman","under 40","south",0.834,-0.844
+91,"control","woman","under 40","south",-1.678,-0.532
+92,"control","man","40 and over","north",0.492,-0.691
+93,"control","man","40 and over","east",0.6,0.38
+94,"control","woman","under 40","north",-0.482,0.455
+95,"treated","woman","under 40","east",0.244,2.41
+96,"control","man","under 40","east",-0.051,0.973
+97,"control","woman","40 and over","south",-0.611,-0.62
+98,"control","man","40 and over","north",1.337,-0.058
+99,"control","man","under 40","south",-0.024,-1.939
+100,"control","woman","under 40","north",-0.222,-1.783
+101,"control","woman","40 and over","south",0.909,1.614
+102,"treated","man","40 and over","south",0.603,0.339
+103,"control","man","under 40","south",-0.27,-1.701
+104,"control","man","under 40","south",1.843,1.116
+105,"treated","woman","under 40","south",-0.141,1.169
+106,"control","woman","under 40","east",1.353,2.666
+107,"treated","man","40 and over","north",0.986,1.728
+108,"treated","man","under 40","south",0.807,-0.192
+109,"treated","woman","under 40","east",-0.322,1.678
+110,"control","man","40 and over","south",0.682,1.986
+111,"control","man","40 and over","south",0.367,0.77
+112,"control","man","under 40","south",-0.975,-0.874
+113,"treated","man","under 40","east",1.237,0.618
+114,"treated","man","under 40","south",0.733,0.263
+115,"control","man","under 40","north",1.014,0.955
+116,"treated","man","40 and over","north",1.289,-0.097
+117,"treated","woman","40 and over","south",0.86,0.058
+118,"control","man","under 40","south",-0.579,-1.596
+119,"treated","man","40 and over","east",1.508,0.198
+120,"treated","woman","40 and over","north",0.341,-0.956
+121,"control","woman","under 40","north",-1.06,-1.673
+122,"treated","man","under 40","north",1.981,1.932
+123,"control","woman","40 and over","south",-0.53,-0.827
+124,"treated","man","under 40","south",0.709,0.997
+125,"treated","man","40 and over","east",-0.524,-0.863
+126,"control","woman","under 40","north",0.722,0.354
+127,"treated","man","40 and over","south",0.239,-1.593
+128,"control","woman","40 and over","south",-0.753,0.649
+129,"control","man","under 40","north",-0.303,-2.57
+130,"control","man","under 40","south",0.733,0.307
+131,"control","man","under 40","south",0.867,0.985
+132,"control","woman","40 and over","north",-0.618,-1.855
+133,"treated","woman","40 and over","south",0.662,3.346
+134,"treated","woman","under 40","east",-0.332,-0.438
+135,"control","woman","under 40","east",-1.524,1.119
+136,"control","man","40 and over","east",1.404,0.987
+137,"treated","woman","under 40","south",0.032,0.45
+138,"control","man","under 40","north",-2.055,-1.018
+139,"control","man","40 and over","north",0.317,0.301
+140,"treated","man","under 40","north",-2.301,-1.642
+141,"treated","woman","40 and over","east",-0.134,2.856
+142,"control","woman","40 and over","south",1.14,1.297
+143,"treated","woman","under 40","east",1.392,2.58
+144,"control","man","40 and over","south",0,1.2
+145,"treated","man","under 40","north",-0.092,-1.667
+146,"control","woman","40 and over","north",0.451,0.863
+147,"control","man","under 40","north",-1.109,-1.257
+148,"control","man","40 and over","north",-1.693,-2.168
+149,"treated","man","under 40","north",-1.071,-1.47
+150,"control","man","under 40","east",-1.052,1.474
+151,"control","man","40 and over","east",-0.768,0.218
+152,"treated","man","under 40","south",-1.016,-0.875
+153,"control","man","under 40","south",1.091,1.46
+154,"control","woman","under 40","east",0.63,-0.707
+155,"control","woman","40 and over","north",-0.616,-0.695
+156,"control","woman","under 40","north",0.041,0.783
+157,"treated","man","under 40","north",-2.002,-1.463
+158,"control","woman","under 40","north",0.327,0.583
+159,"treated","man","40 and over","south",-0.106,2.259
+160,"treated","man","under 40","east",-0.555,0.123
+161,"treated","woman","under 40","south",1.219,0.832
+162,"control","man","under 40","north",-0.155,0.045
+163,"control","woman","40 and over","east",-1.587,-0.339
+164,"control","woman","under 40","south",1.42,-0.926
+165,"control","woman","under 40","south",0.652,0.426
+166,"control","woman","under 40","north",1.682,0.783
+167,"control","man","under 40","south",-0.399,-1.51
+168,"control","man","under 40","east",1.024,0.394
+169,"control","woman","40 and over","south",-0.423,-0.342
+170,"treated","woman","40 and over","north",-0.921,-0.892
+171,"control","woman","40 and over","north",0.211,0.315
+172,"treated","man","under 40","east",0.012,-0.328
+173,"treated","woman","under 40","south",0.053,3.081
+174,"control","man","40 and over","south",-1.096,-2.026
+175,"treated","man","under 40","south",-0.893,0.897
+176,"treated","woman","under 40","east",-0.485,1.297
+177,"treated","man","under 40","north",-0.678,-0.857
+178,"control","man","under 40","south",-1.719,-1.193
+179,"treated","woman","under 40","north",-0.018,1.675
+180,"control","woman","40 and over","south",0.201,-1.161
+181,"treated","woman","under 40","south",0.639,1.149
+182,"control","man","40 and over","south",-0.152,0.357
+183,"control","man","under 40","east",-1.703,-0.25
+184,"treated","woman","under 40","south",0.846,0.973
+185,"treated","man","under 40","south",-0.158,-0.335
+186,"treated","woman","under 40","east",1.025,3.352
+187,"treated","man","40 and over","north",-0.075,-0.616
+188,"treated","woman","40 and over","east",0.24,0.873
+189,"control","woman","under 40","south",0.338,-1.162
+190,"control","woman","40 and over","north",0.436,0.827
+191,"control","man","under 40","south",-0.661,-1.604
+192,"treated","woman","40 and over","north",-0.585,-0.141
+193,"control","woman","40 and over","east",0.387,0.094
+194,"control","woman","under 40","south",0.709,0.318
+195,"treated","man","40 and over","north",1.387,0.992
+196,"control","man","40 and over","north",0.456,-1.749
+197,"control","woman","40 and over","north",-1.066,-0.578
+198,"control","woman","40 and over","east",1.19,0.862
+199,"treated","man","40 and over","north",0.973,1.836
+200,"treated","woman","40 and over","south",1.209,2.239
+201,"control","man","40 and over","north",0.759,1.314
+202,"treated","woman","40 and over","south",0.899,0.354
+203,"treated","man","under 40","south",0.468,2.684
+204,"control","man","40 and over","east",0.856,1.574
+205,"control","man","40 and over","north",0.027,-0.067
+206,"control","man","under 40","north",0.824,0.597
+207,"treated","woman","under 40","east",1.516,1.299
+208,"treated","man","under 40","east",1.437,1.749
+209,"treated","woman","under 40","north",-0.185,2.056
+210,"control","man","40 and over","south",-2.07,-0.325
+211,"control","man","under 40","south",1.063,0.901
+212,"control","woman","40 and over","east",-0.211,0.531
+213,"control","man","under 40","south",0.705,0.834
+214,"treated","woman","under 40","south",0.219,0.539
+215,"control","man","under 40","east",0.137,-0.906
+216,"control","man","40 and over","south",-0.631,-0.478
+217,"treated","woman","40 and over","north",-1.307,0.071
+218,"control","woman","40 and over","south",-0.301,-2.076
+219,"treated","woman","under 40","east",-0.463,-1.307
+220,"control","woman","40 and over","east",0.386,-0.023
+221,"control","woman","40 and over","north",1.46,0.997
+222,"control","man","under 40","east",-1.196,0.613
+223,"treated","man","under 40","north",-0.563,-1.169
+224,"control","man","under 40","east",0.307,0.828
+225,"treated","man","under 40","south",-0.34,0.735
+226,"control","man","under 40","north",1.026,0.428
+227,"treated","man","under 40","north",-1.325,0.25
+228,"control","woman","under 40","south",-0.329,1.49
+229,"treated","man","40 and over","south",-0.869,-0.958
+230,"control","woman","40 and over","south",-0.089,-0.158
+231,"control","man","40 and over","south",0,0.776
+232,"treated","man","40 and over","north",0.983,1.061
+233,"treated","man","40 and over","south",-1.485,0.912
+234,"control","woman","40 and over","south",0.028,2.067
+235,"treated","woman","under 40","south",-1.25,-0.377
+236,"control","woman","40 and over","south",0.663,0.103
+237,"control","woman","40 and over","east",1.361,0.26
+238,"treated","man","under 40","south",1.339,1.449
+239,"treated","woman","40 and over","south",-0.756,0.488
+240,"treated","woman","under 40","north",-0.711,2
+241,"treated","man","40 and over","north",-0.141,-0.058
+242,"treated","woman","under 40","north",0.03,0.446
+243,"control","woman","under 40","north",-1.115,-0.355
+244,"treated","man","under 40","north",0.702,0.884
+245,"control","woman","40 and over","south",0.387,-0.421
+246,"control","man","40 and over","south",-0.765,-0.782
+247,"control","man","under 40","north",-0.076,0.483
+248,"treated","man","under 40","east",-0.19,1.762
+249,"control","woman","under 40","north",0.138,0.755
+250,"control","man","under 40","north",-0.529,-1.5
+251,"treated","man","40 and over","east",-0.689,0.616
+252,"control","woman","40 and over","east",1.205,-0.681
+253,"treated","woman","under 40","south",-0.863,-1.578
+254,"control","man","under 40","south",0.937,-0.043
+255,"treated","woman","under 40","south",-0.176,-0.548
+256,"treated","woman","under 40","north",-1.092,0.741
+257,"treated","woman","under 40","east",-0.076,0.734
+258,"treated","woman","under 40","south",0.89,-0.062
+259,"treated","woman","under 40","south",-0.095,2.827
+260,"control","woman","under 40","south",0.738,-0.253
+261,"control","woman","under 40","north",1.478,0.878
+262,"control","woman","under 40","north",-0.18,-0.308
+263,"treated","man","under 40","south",-2.082,-2.1
+264,"control","man","40 and over","north",0.332,1.017
+265,"control","woman","under 40","north",-0.874,1.017
+266,"control","man","40 and over","north",1.586,1.042
+267,"treated","woman","under 40","south",0.381,2.657
+268,"control","woman","40 and over","south",0.224,0.14
+269,"treated","woman","40 and over","east",0.343,3.14
+270,"control","man","under 40","east",0.651,-0.673
+271,"treated","woman","40 and over","south",-0.65,1.029
+272,"treated","woman","under 40","north",0.178,2.492
+273,"control","man","40 and over","north",1.266,0.03
+274,"control","woman","under 40","east",-0.119,-1.61
+275,"control","man","under 40","north",-0.374,-1.034
+276,"treated","man","under 40","north",1.846,-0.417
+277,"control","man","under 40","south",1.771,-0.177
+278,"control","man","under 40","north",0.365,0.418
+279,"control","woman","40 and over","north",1.038,2.226
+280,"control","woman","40 and over","east",-0.223,-0.354
+281,"treated","man","40 and over","south",0.593,1.906
+282,"control","woman","40 and over","east",0.64,-0.154
+283,"control","woman","under 40","south",-1.321,-1.929
+284,"treated","man","40 and over","south",-0.5,0.779
+285,"treated","woman","under 40","east",0.918,1.927
+286,"treated","man","40 and over","east",-0.903,-0.403
+287,"control","man","40 and over","south",1.964,1.717
+288,"control","man","under 40","south",0.513,-0.317
+289,"control","man","40 and over","south",0.78,0.811
+290,"control","man","40 and over","south",0.009,-0.511
+291,"treated","woman","under 40","south",-1.209,0.48
+292,"treated","woman","under 40","south",-0.848,0.033
+293,"control","man","40 and over","east",0.462,-0.577
+294,"control","woman","under 40","north",-1.986,-0.941
+295,"control","woman","under 40","north",-0.295,0.417
+296,"control","man","40 and over","north",0.148,0.287
+297,"treated","man","under 40","east",0.002,-0.944
+298,"control","man","under 40","north",-2.987,-1.511
+299,"treated","man","under 40","north",1.894,-0.238
+300,"control","man","under 40","east",1.385,2.871
+301,"control","woman","under 40","south",-1.536,-0.151
+302,"control","woman","40 and over","north",0.151,1.721
+303,"control","woman","under 40","south",0.211,1.525
+304,"control","woman","40 and over","south",-1.528,-0.714
+305,"treated","man","under 40","east",-0.757,0.731
+306,"control","woman","under 40","east",1.189,-0.067
+307,"control","man","under 40","east",-0.741,-1.303
+308,"treated","man","under 40","north",-0.321,-0.539
+309,"control","woman","under 40","east",-1.73,-0.508
+310,"treated","woman","40 and over","north",0.576,4.291
+311,"treated","man","40 and over","north",1.348,2.087
+312,"treated","woman","40 and over","east",-0.544,1.416
+313,"treated","man","under 40","east",0.462,0.31
+314,"control","woman","40 and over","north",1.03,1.368
+315,"control","woman","40 and over","east",0.299,0.016
+316,"control","woman","under 40","south",-1.202,-0.627
+317,"control","man","under 40","north",1.239,0.756
+318,"control","woman","40 and over","north",-1.287,0.123
+319,"control","man","40 and over","north",0.47,-0.467
+320,"control","woman","under 40","north",-0.436,-0.201
+321,"treated","woman","under 40","north",-0.27,0.448
+322,"control","man","40 and over","north",0.156,-0.195
+323,"treated","man","under 40","south",1.456,0.407
+324,"control","man","under 40","east",-1.19,0.883
+325,"treated","woman","under 40","east",-1.846,1.735
+326,"treated","woman","under 40","north",-0.284,0.47
+327,"treated","woman","40 and over","south",-0.523,0.187
+328,"control","woman","under 40","south",-0.748,0.516
+329,"treated","man","40 and over","south",-0.272,1.122
+330,"treated","woman","40 and over","south",1.512,3.132
+331,"control","woman","under 40","north",-0.249,-0.51
+332,"treated","woman","under 40","south",-0.84,0.366
+333,"treated","woman","under 40","south",0.056,-0.124
+334,"control","woman","40 and over","north",-2.836,-1.195
+335,"treated","man","under 40","south",0.679,0.54
+336,"control","woman","40 and over","south",-1.328,-2.037
+337,"treated","man","under 40","east",-0.662,1.43
+338,"control","man","under 40","north",0.148,-0.358
+339,"control","man","under 40","north",-0.526,-0.706
+340,"control","woman","under 40","north",0.445,0.679
+341,"control","woman","under 40","south",0.659,0.747
+342,"treated","man","under 40","east",2.033,0.897
+343,"treated","man","under 40","east",-0.592,0.944
+344,"control","man","under 40","south",-0.159,-0.175
+345,"treated","man","under 40","south",1.607,3.388
+346,"control","man","under 40","north",-0.323,0.679
+347,"treated","woman","under 40","south",-0.172,-0.146
+348,"control","woman","40 and over","north",-1.748,-0.459
+349,"control","man","40 and over","north",0.236,0.33
+350,"control","woman","under 40","east",-1.178,1.312
+351,"treated","man","40 and over","south",-0.663,-0.187
+352,"treated","woman","under 40","north",0.234,1.172
+353,"treated","woman","under 40","north",-0.452,0.911
+354,"treated","woman","40 and over","south",0.394,-0.767
+355,"treated","woman","40 and over","north",-0.466,-1.24
+356,"control","woman","under 40","south",0.036,0.951
+357,"treated","woman","under 40","south",0.181,-0.895
+358,"treated","man","under 40","south",0.362,1.265
+359,"treated","man","under 40","south",-0.053,1.066
+360,"control","man","40 and over","south",1.705,1.749
+361,"control","man","40 and over","east",-0.652,1.5
+362,"control","man","40 and over","north",-0.69,1.348
+363,"control","man","under 40","south",-1.573,0.213
+364,"control","woman","under 40","south",-0.44,-0.192
+365,"treated","man","under 40","north",0.705,0.595
+366,"treated","man","under 40","north",0.905,0.663
+367,"control","woman","40 and over","south",-0.053,-0.636
+368,"treated","woman","under 40","north",0.453,0.57
+369,"control","man","40 and over","east",1.364,1.602
+370,"control","man","under 40","east",-1.341,-0.921
+371,"treated","woman","40 and over","east",0.956,2.841
+372,"control","woman","40 and over","north",-0.685,-0.366
+373,"treated","woman","40 and over","north",-0.386,-1.112
+374,"control","woman","under 40","north",-0.39,0.514
+375,"control","woman","40 and over","north",-0.206,-1.316
+376,"control","woman","40 and over","north",-0.665,-0.212
+377,"treated","man","under 40","south",-1.449,-0.082
+378,"control","man","40 and over","south",-2.638,-1.91
+379,"control","woman","40 and over","north",-1.291,-1.598
+380,"control","woman","under 40","north",-1.336,-0.607
+381,"control","man","under 40","north",0.17,0.602
+382,"treated","woman","under 40","east",0.099,2.798
+383,"treated","woman","40 and over","north",-1.468,1.874
+384,"control","man","under 40","south",0.492,1.039
+385,"control","woman","40 and over","east",0.679,-0.104
+386,"control","woman","40 and over","north",-1.249,-2.344
+387,"treated","woman","40 and over","south",0.742,1.04
+388,"control","man","40 and over","north",1.323,0.34
+389,"treated","woman","under 40","north",-0.852,0.432
+390,"treated","woman","40 and over","north",-0.605,-0.118
+391,"treated","woman","40 and over","north",0.703,0.974
+392,"treated","woman","40 and over","east",-0.498,1.989
+393,"control","man","40 and over","south",1.172,1.07
+394,"treated","man","40 and over","north",-1.235,-0.007
+395,"control","man","40 and over","north",0.418,-2.201
+396,"treated","man","under 40","north",-0.71,-0.64
+397,"control","woman","under 40","north",0.469,0.185
+398,"control","woman","under 40","south",-0.003,0.65
+399,"control","woman","under 40","south",0.005,1.188
+400,"control","woman","under 40","north",0.704,-0.012
+401,"treated","woman","under 40","east",-0.155,0.362
+402,"control","man","40 and over","north",-0.866,-0.257
+403,"treated","woman","40 and over","north",-0.447,0.948
+404,"control","woman","under 40","south",0.93,-1.57
+405,"control","man","under 40","south",-0.607,1.427
+406,"treated","woman","under 40","north",1.565,2.973
+407,"control","woman","40 and over","south",0.459,2.587
+408,"control","woman","40 and over","south",-0.13,0.433
+409,"treated","man","40 and over","north",0.021,-0.053
+410,"treated","woman","under 40","north",1.316,1.231
+411,"control","man","under 40","east",-0.388,1.032
+412,"treated","woman","under 40","north",-0.321,-0.167
+413,"control","woman","40 and over","north",-0.08,-1.669
+414,"control","woman","40 and over","east",-0.155,-0.616
+415,"treated","woman","under 40","east",0.55,1.104
+416,"control","man","under 40","south",-1.343,-0.049
+417,"treated","man","under 40","south",0.515,-0.123
+418,"control","man","under 40","north",0.008,0.402
+419,"treated","woman","40 and over","south",-0.624,0.214
+420,"control","man","under 40","south",0.938,0.385
+421,"control","woman","40 and over","east",-0.002,-0.762
+422,"control","man","40 and over","north",-0.828,-0.169
+423,"treated","man","under 40","north",1.024,1.212
+424,"control","man","40 and over","north",-0.674,-1.522
+425,"treated","man","under 40","north",0.054,-0.439
+426,"treated","woman","40 and over","east",-0.643,0.377
+427,"treated","woman","under 40","east",-0.731,1.675
+428,"control","man","under 40","east",-0.523,-1
+429,"control","woman","under 40","north",-0.829,-1.768
+430,"control","man","under 40","south",1.175,-1.021
+431,"control","man","40 and over","south",0.719,0.351
+432,"control","woman","under 40","south",1.693,-0.257
+433,"control","man","under 40","north",1.377,0.408
+434,"control","man","under 40","north",-1.544,-0.275
+435,"treated","man","40 and over","north",0.887,-0.588
+436,"treated","man","40 and over","north",-1.359,0.36
+437,"treated","man","40 and over","east",-1.994,0.409
+438,"treated","man","40 and over","east",1.447,-0.159
+439,"treated","man","40 and over","north",-1.493,-0.382
+440,"treated","woman","40 and over","east",0.213,0.271
+441,"treated","woman","40 and over","north",-0.649,0.713
+442,"control","woman","40 and over","south",0.09,0.616
+443,"control","man","40 and over","north",0.888,-0.249
+444,"treated","man","under 40","south",-0.189,-0.841
+445,"control","man","40 and over","north",0.303,-1.411
+446,"control","woman","40 and over","north",-1.276,-0.277
+447,"control","woman","40 and over","north",0.633,-0.666
+448,"treated","woman","40 and over","north",0.788,0.764
+449,"treated","woman","40 and over","east",1.473,2.309
+450,"control","woman","under 40","south",-0.081,-0.731
+451,"treated","man","40 and over","east",-0.843,1.579
+452,"control","woman","under 40","south",-1.156,0.827
+453,"treated","man","under 40","south",1.659,1.809
+454,"control","woman","under 40","north",1.267,-1.64
+455,"treated","woman","40 and over","south",-1.107,0.506
+456,"treated","woman","40 and over","south",-1.187,-0.216
+457,"treated","man","40 and over","east",-0.167,0.79
+458,"control","woman","40 and over","south",0.497,2.35
+459,"control","man","40 and over","east",1.697,1.149
+460,"treated","woman","under 40","south",-1.541,-0.272
+461,"treated","woman","40 and over","east",2.317,1.517
+462,"control","woman","40 and over","south",-0.349,1.735
+463,"treated","man","under 40","east",0.955,2.105
+464,"control","man","under 40","north",1.076,-0.445
+465,"control","man","under 40","south",1.09,-0.198
+466,"treated","woman","40 and over","south",-1.167,0.698
+467,"control","man","under 40","east",2,1.979
+468,"control","woman","under 40","north",0.232,0.079
+469,"treated","woman","under 40","north",0.516,1.98
+470,"control","woman","40 and over","north",-0.884,-0.334
+471,"control","man","40 and over","north",0.216,-0.158
+472,"treated","woman","40 and over","south",1.586,0.344
+473,"control","woman","under 40","east",-1.473,1.143
+474,"control","woman","under 40","east",0.049,0.283
+475,"treated","woman","under 40","north",-0.1,0.684
+476,"treated","man","under 40","north",-1.863,-1.513
+477,"treated","man","40 and over","east",1.19,-0.242
+478,"treated","man","40 and over","east",-0.062,1.492
+479,"control","man","40 and over","south",0.282,1.77
+480,"treated","man","under 40","south",0.774,-0.582
+481,"control","woman","under 40","east",-0.387,1.543
+482,"treated","woman","under 40","south",-1.897,0.823
+483,"control","man","40 and over","south",0.288,2.141
+484,"control","man","40 and over","south",0.626,0.773
+485,"treated","man","under 40","east",0.838,1.244
+486,"control","woman","under 40","south",-1.758,-0.137
+487,"treated","woman","under 40","north",1.863,1.948
+488,"treated","man","40 and over","east",-0.162,0.027
+489,"control","man","40 and over","north",0.029,1.231
+490,"treated","woman","40 and over","south",-1.873,-0.345
+491,"treated","woman","40 and over","north",0.01,1.966
+492,"control","woman","under 40","east",-0.181,-0.543
+493,"control","woman","under 40","south",-1.759,-0.394
+494,"control","woman","40 and over","east",-0.973,0.673
+495,"treated","woman","under 40","south",-0.497,1.46
+496,"treated","man","under 40","east",0.981,0.406
+497,"control","man","40 and over","east",1.209,-0.653
+498,"treated","woman","under 40","south",-0.093,1.653
+499,"treated","man","40 and over","east",1.689,1.454
+500,"control","man","under 40","north",-0.374,-0.351
+501,"treated","man","under 40","north",-1.008,0.47
+502,"control","man","under 40","east",0.365,0.181
+503,"treated","woman","40 and over","north",-0.803,-0.365
+504,"control","woman","40 and over","east",-1.586,-0.918
+505,"control","man","under 40","east",0.957,0.564
+506,"treated","man","40 and over","east",0.713,0.072
+507,"control","woman","under 40","east",1.083,0.488
+508,"control","man","under 40","north",-0.855,0.135
+509,"treated","woman","40 and over","east",-0.534,1.25
+510,"treated","man","under 40","south",0.502,-1.5
+511,"control","woman","40 and over","north",-1.032,-0.616
+512,"control","man","under 40","north",0.567,1.312
+513,"control","woman","40 and over","south",-0.389,-0.815
+514,"treated","woman","under 40","north",1.555,1.046
+515,"control","man","under 40","north",1.8,1.608
+516,"treated","man","40 and over","east",0.057,1.474
+517,"treated","man","40 and over","north",-0.215,1.669
+518,"control","woman","under 40","south",-1.487,-0.772
+519,"treated","woman","under 40","east",-1.602,1.601
+520,"control","man","40 and over","north",0.923,0.798
+521,"treated","woman","under 40","south",-0.074,1.07
+522,"control","woman","under 40","north",0.237,0.55
+523,"control","woman","40 and over","north",-1.243,-0.238
+524,"control","man","40 and over","north",0.436,-0.54
+525,"control","woman","under 40","south",-1.57,-0.354
+526,"treated","woman","40 and over","south",0.326,1.179
+527,"treated","man","40 and over","south",-2.35,-1.243
+528,"treated","woman","under 40","east",-0.17,1.932
+529,"control","man","under 40","north",1.772,0.1
+530,"control","man","under 40","north",0.86,0.335
+531,"treated","woman","40 and over","south",-0.538,0.95
+532,"treated","man","under 40","north",-0.388,0.279
+533,"treated","man","under 40","south",0.976,0.939
+534,"control","man","40 and over","north",-0.42,-0.428
+535,"control","woman","40 and over","south",1.664,0.644
+536,"control","woman","under 40","south",-0.481,-0.266
+537,"treated","man","under 40","east",-0.503,0.62
+538,"treated","man","40 and over","east",0.319,2.247
+539,"treated","man","40 and over","south",0.692,-0.665
+540,"control","man","under 40","north",0.922,1.128
+541,"control","man","under 40","south",-0.85,0.827
+542,"control","man","40 and over","north",-0.02,0.178
+543,"treated","woman","under 40","south",-0.72,-0.377
+544,"treated","man","under 40","south",-0.579,-0.382
+545,"treated","woman","40 and over","south",0.791,0.492
+546,"treated","man","under 40","east",-1.048,-1.722
+547,"treated","woman","under 40","south",-0.535,0.998
+548,"control","woman","40 and over","south",-0.795,2.317
+549,"treated","man","under 40","north",-0.097,-0.812
+550,"treated","man","under 40","east",1.336,2.357
+551,"treated","man","under 40","east",1.146,2.126
+552,"treated","man","40 and over","east",-0.301,0.903
+553,"treated","man","under 40","south",-0.576,1.981
+554,"treated","man","40 and over","south",2.129,2.238
+555,"treated","woman","under 40","north",0.319,1.214
+556,"control","woman","under 40","north",-1.103,-0.59
+557,"control","man","40 and over","north",0.845,2.493
+558,"control","woman","40 and over","east",0.711,2.239
+559,"control","woman","40 and over","north",1.328,0.224
+560,"treated","woman","under 40","north",-0.194,0.001
+561,"control","woman","40 and over","east",2.114,-0.469
+562,"treated","woman","under 40","north",-0.31,1.12
+563,"treated","man","under 40","south",0.426,-0.491
+564,"control","man","under 40","north",-2.225,-2.35
+565,"treated","man","40 and over","north",-2.324,-1.715
+566,"treated","man","under 40","south",-1.074,1.441
+567,"control","woman","under 40","south",1.045,-0.275
+568,"treated","woman","under 40","south",-0.841,0.414
+569,"control","woman","40 and over","north",-1.074,-1.104
+570,"treated","man","40 and over","north",1.857,0.994
+571,"treated","man","under 40","north",1.659,0.325
+572,"control","woman","40 and over","north",-1.072,0.41
+573,"treated","woman","40 and over","east",0.213,0.485
+574,"control","woman","under 40","north",1.471,1.964
+575,"control","woman","40 and over","north",-0.251,-0.93
+576,"control","woman","under 40","north",-0.265,-0.878
+577,"control","woman","40 and over","north",1.716,0.156
+578,"treated","woman","under 40","east",-1.149,-0.661
+579,"control","woman","40 and over","south",-0.692,-0.378
+580,"treated","woman","under 40","north",0.585,2.404
+581,"control","man","under 40","east",0.17,-0.121
+582,"treated","man","under 40","east",-2.709,-1.1
+583,"control","man","under 40","north",0.611,-0.041
+584,"control","man","under 40","south",1.274,1.178
+585,"control","man","40 and over","south",1.853,1.746
+586,"control","woman","40 and over","east",-0.848,-0.709
+587,"treated","woman","under 40","north",-0.277,0.472
+588,"treated","woman","40 and over","north",-0.659,-1.113
+589,"control","woman","under 40","north",-1.102,-0.163
+590,"control","man","40 and over","east",-0.374,-1.87
+591,"control","woman","40 and over","south",0.111,0.527
+592,"treated","man","40 and over","south",-0.675,-1.677
+593,"control","man","under 40","north",-1.65,-1.09
+594,"treated","woman","40 and over","north",-0.925,-2.872
+595,"treated","woman","under 40","north",-0.241,0.892
+596,"treated","woman","under 40","south",2.026,1.497
+597,"control","man","under 40","north",1.858,0.226
+598,"control","man","40 and over","south",1.557,0.894
+599,"control","man","40 and over","east",-0.524,0.129
+600,"treated","man","40 and over","east",0.212,0.128
+601,"control","woman","under 40","east",-1.341,0.921
+602,"control","woman","40 and over","south",0.246,0.66
+603,"treated","woman","40 and over","south",-0.537,0.762
+604,"treated","man","under 40","north",-1.091,0.038
+605,"treated","man","40 and over","east",-0.355,0.231
+606,"treated","man","40 and over","south",-0.477,0.641
+607,"control","woman","40 and over","south",1.959,0.477
+608,"control","man","under 40","south",-1.412,0.216
+609,"control","man","under 40","east",-1.144,-0.986
+610,"control","man","40 and over","north",1.069,-0.661
+611,"treated","man","40 and over","south",-0.406,-0.105
+612,"treated","woman","under 40","south",0.145,2.078
+613,"treated","man","40 and over","east",0.259,0.32
+614,"control","man","under 40","east",-0.079,-0.554
+615,"control","woman","40 and over","east",1.074,0.838
+616,"control","man","40 and over","south",1.209,0.133
+617,"treated","woman","under 40","south",0.499,0.979
+618,"treated","man","under 40","east",0.176,1.006
+619,"treated","woman","40 and over","east",-0.028,2.226
+620,"treated","woman","under 40","south",-0.628,1.977
+621,"treated","woman","40 and over","south",0.035,0.742
+622,"treated","woman","under 40","south",1.374,1.829
+623,"treated","woman","40 and over","north",1.05,0.539
+624,"control","woman","40 and over","south",1.141,-1.52
+625,"control","woman","under 40","north",-0.279,-0.325
+626,"control","woman","40 and over","south",-0.115,0.827
+627,"control","woman","40 and over","north",1.865,1.479
+628,"control","man","40 and over","south",2.68,2.006
+629,"treated","woman","under 40","north",0.908,2.52
+630,"control","man","40 and over","south",-0.559,-0.087
+631,"treated","man","40 and over","east",-0.887,0.626
+632,"treated","woman","40 and over","south",-1.209,1.574
+633,"control","man","under 40","south",-1.57,-3.042
+634,"treated","man","under 40","south",-0.997,-0.881
+635,"control","man","40 and over","east",0.635,0.281
+636,"treated","man","under 40","north",-1.794,-1.185
+637,"treated","man","under 40","east",-0.164,1.538
+638,"control","woman","under 40","north",-0.385,-0.607
+639,"control","woman","40 and over","north",-0.108,-1.246
+640,"control","man","under 40","south",-0.504,0.347
+641,"treated","woman","under 40","north",-0.059,2.353
+642,"treated","man","40 and over","east",0.595,2.631
+643,"treated","woman","under 40","south",-0.228,-1.013
+644,"control","woman","40 and over","south",-0.023,0.475
+645,"treated","man","40 and over","south",0.21,2.289
+646,"control","man","under 40","north",-0.824,0.756
+647,"treated","woman","40 and over","east",0.177,1.116
+648,"control","woman","40 and over","east",0.066,-1.163
+649,"treated","man","under 40","south",-0.603,0.43
+650,"treated","man","under 40","south",-0.299,0.156
+651,"treated","woman","40 and over","south",-0.521,-0.95
+652,"treated","man","under 40","south",-1.35,0.953
+653,"treated","woman","under 40","east",0.123,1.892
+654,"control","woman","under 40","north",-0.038,-0.519
+655,"control","woman","40 and over","south",0.864,-0.676
+656,"treated","woman","under 40","south",-0.696,0.522
+657,"control","woman","under 40","north",-0.074,0.377
+658,"control","man","40 and over","north",-0.737,0.367
+659,"treated","man","40 and over","south",-1.272,-0.854
+660,"treated","woman","under 40","north",1.054,1.853
+661,"treated","woman","40 and over","north",1.731,0.342
+662,"control","man","40 and over","north",0.857,0.764
+663,"treated","man","under 40","north",0.226,0.418
+664,"control","woman","under 40","south",-0.333,0.401
+665,"control","man","40 and over","south",1.246,0.103
+666,"control","woman","40 and over","south",-0.708,-0.384
+667,"control","woman","under 40","south",0.681,0.614
+668,"treated","man","under 40","north",0.454,0.647
+669,"control","man","under 40","south",0.45,-0.09
+670,"treated","woman","40 and over","east",-0.572,1.516
+671,"treated","woman","under 40","south",0.61,0.141
+672,"treated","man","under 40","south",-1.603,-1.505
+673,"treated","woman","under 40","south",0.254,0.814
+674,"control","man","under 40","north",1.842,1.39
+675,"control","woman","under 40","south",0.917,1.895
+676,"treated","woman","under 40","south",1.206,0.707
+677,"treated","man","40 and over","north",-0.149,-0.299
+678,"control","man","under 40","east",-0.359,-0.793
+679,"control","woman","under 40","east",0.327,-0.822
+680,"treated","woman","under 40","east",0.318,2.387
+681,"treated","man","under 40","north",-0.056,-1.186
+682,"treated","woman","40 and over","south",-1.022,-1.056
+683,"control","man","40 and over","east",-0.417,-0.328
+684,"control","woman","40 and over","north",1.714,1.725
+685,"control","man","under 40","south",-0.859,0.189
+686,"control","woman","under 40","north",-0.393,-0.931
+687,"control","woman","under 40","east",-1.081,-1.572
+688,"treated","woman","40 and over","east",-0.881,1.695
+689,"control","woman","under 40","south",-0.095,0.134
+690,"control","man","under 40","east",-0.144,0.847
+691,"treated","woman","40 and over","east",-0.505,1.047
+692,"control","woman","40 and over","east",-0.17,0.101
+693,"control","man","40 and over","north",1.481,0.005
+694,"control","man","under 40","south",-0.606,1.068
+695,"treated","woman","under 40","south",0.301,1.927
+696,"treated","man","40 and over","south",-0.683,-0.428
+697,"control","man","40 and over","north",-0.681,1.114
+698,"control","woman","under 40","north",0.694,-1.144
+699,"control","woman","40 and over","east",-0.587,2.486
+700,"control","woman","under 40","east",1.316,-0.305
+701,"control","woman","under 40","north",0.162,0.261
+702,"control","man","under 40","east",-0.232,-0.365
+703,"control","man","under 40","south",-1.581,0.971
+704,"control","man","40 and over","south",1.54,1.979
+705,"treated","man","40 and over","north",-1.525,-1.951
+706,"control","woman","under 40","north",0.354,0.618
+707,"treated","woman","40 and over","north",-1.103,0.802
+708,"control","man","under 40","south",-0.574,-1.39
+709,"control","woman","under 40","north",1.083,-0.991
+710,"treated","man","40 and over","north",0.652,0.481
+711,"treated","man","40 and over","south",1.715,1.245
+712,"control","woman","under 40","north",-1.378,0.401
+713,"treated","man","under 40","north",-0.156,-0.184
+714,"treated","woman","under 40","south",-0.76,0.98
+715,"treated","man","40 and over","south",0.058,-0.456
+716,"treated","woman","40 and over","east",1.684,2.292
+717,"treated","man","40 and over","south",-1.253,-0.974
+718,"control","woman","under 40","north",-0.32,-1.117
+719,"treated","woman","40 and over","north",0.859,0.384
+720,"control","woman","under 40","east",0.318,1.251
+721,"control","woman","under 40","north",-2.702,-1.823
+722,"treated","woman","40 and over","north",-1.108,-1.154
+723,"control","man","40 and over","north",-0.746,1.244
+724,"control","woman","under 40","east",1.954,1.916
+725,"control","woman","under 40","east",0.76,0.652
+726,"control","man","under 40","north",-0.88,-0.676
+727,"control","woman","40 and over","north",0.474,-0.115
+728,"control","woman","40 and over","south",-0.512,1.295
+729,"treated","man","40 and over","east",2.579,3.364
+730,"treated","woman","under 40","east",-0.743,1.558
+731,"treated","man","40 and over","north",-1.559,-1.926
+732,"control","woman","under 40","south",1.267,1.36
+733,"treated","woman","under 40","north",-0.789,1.41
+734,"control","man","under 40","east",-1.566,0.963
+735,"control","man","40 and over","north",-0.35,0.679
+736,"control","man","under 40","south",-0.413,0.698
+737,"treated","woman","under 40","north",0.101,-0.404
+738,"treated","woman","40 and over","north",0.468,1.083
+739,"treated","woman","under 40","south",-1.283,0.396
+740,"control","man","40 and over","east",0.385,-0.448
+741,"control","woman","under 40","north",2.312,-0.052
+742,"treated","man","under 40","north",-1.171,-0.958
+743,"treated","man","under 40","east",1.319,1.618
+744,"control","man","40 and over","north",1.679,0.839
+745,"control","woman","under 40","south",1.68,0.144
+746,"control","man","40 and over","north",-0.317,-0.825
+747,"control","woman","under 40","north",2.274,0.893
+748,"treated","man","under 40","east",0.898,0.336
+749,"control","man","under 40","north",-0.124,0.592
+750,"treated","woman","40 and over","north",-1.041,0.323
+751,"treated","woman","under 40","south",-1.207,-1.549
+752,"control","man","40 and over","north",0.805,1.988
+753,"control","man","under 40","north",0.893,1.221
+754,"treated","man","under 40","east",-0.065,0.912
+755,"control","woman","under 40","north",-0.46,-1.156
+756,"treated","man","under 40","east",1.042,0.619
+757,"treated","woman","40 and over","south",-0.893,0.705
+758,"control","woman","40 and over","north",-0.437,-1.991
+759,"control","woman","under 40","south",-0.534,0.204
+760,"treated","woman","under 40","north",-0.003,1.79
+761,"control","man","40 and over","south",1.354,1.284
+762,"treated","man","under 40","south",0.089,-1.651
+763,"treated","woman","40 and over","south",0.81,2.432
+764,"control","woman","under 40","east",1.341,0.151
+765,"control","woman","under 40","north",0.566,-0.177
+766,"treated","woman","40 and over","south",0.219,2.429
+767,"control","woman","40 and over","north",2.518,0.866
+768,"control","man","under 40","north",0.51,1.44
+769,"treated","man","under 40","south",-0.741,1.257
+770,"treated","man","40 and over","north",-0.541,-0.008
+771,"treated","woman","under 40","north",0.798,0.43
+772,"treated","woman","under 40","south",-0.35,1.623
+773,"treated","man","under 40","south",0.303,-1.294
+774,"treated","woman","under 40","north",-0.582,-0.884
+775,"control","woman","under 40","north",-0.458,0.085
+776,"control","woman","40 and over","south",0.356,-0.078
+777,"treated","man","40 and over","north",-1,1.045
+778,"control","man","under 40","north",0.504,0.565
+779,"control","woman","40 and over","east",0.825,0.926
+780,"treated","woman","under 40","east",0.118,0.796
+781,"control","woman","40 and over","north",0.176,-0.255
+782,"treated","man","under 40","south",-0.637,-0.209
+783,"treated","man","under 40","east",1.225,1.145
+784,"control","man","40 and over","east",0.235,-0.993
+785,"control","woman","40 and over","north",0.575,1.784
+786,"control","man","40 and over","south",1.06,-0.686
+787,"treated","man","under 40","east",-2.231,-0.69
+788,"treated","woman","40 and over","east",0.258,0.891
+789,"control","woman","under 40","south",0.783,0.564
+790,"treated","man","40 and over","north",1.329,1.109
+791,"control","man","under 40","south",0.581,0.655
+792,"control","woman","under 40","east",0.435,3.126
+793,"treated","woman","40 and over","north",0.513,2.514
+794,"control","man","40 and over","east",-0.163,2.141
+795,"control","woman","under 40","north",0.318,-0.292
+796,"treated","woman","40 and over","south",0.464,1.516
+797,"treated","woman","under 40","south",0.481,0.218
+798,"treated","man","under 40","east",-0.356,-1.064
+799,"control","man","40 and over","north",0.584,1.857
+800,"treated","woman","under 40","south",-1.33,0.091
