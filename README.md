@@ -1,7 +1,7 @@
 # expfamily — randomized experiments in jamovi
 
 A jamovi module for analysing randomized experiments: treatment effects with regression adjustment and robust inference, randomization inference,
-multiple outcomes, power, attrition and bounds, subgroup and factorial effects. Chinese summary: [README.zh.md](README.zh.md).
+multiple outcomes, power, attrition and bounds, subgroup and factorial effects. Chinese summary: [README.zh.md](README.zh.md). Japanese summary: [README.ja.md](README.ja.md).
 
 ## Analyses (jamovi menu: Experiments)
 
